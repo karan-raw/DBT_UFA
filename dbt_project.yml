@@ -1,0 +1,7 @@
+name: 'DBT_Pr_UFA'
+
+version: '1.8.0'
+
+config-version: 2
+
+profile: 'redshift'

@@ -1,0 +1,14 @@
+/profiles.yml
+
+
+dbt_packages/
+target/
+dbt_modules/
+
+
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
