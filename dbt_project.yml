@@ -5,3 +5,8 @@ version: '1.8.0'
 config-version: 2
 
 profile: 'redshift'
+
+snapshots:
+  DBT_Pr_UFA:            # your dbt project name
+    +target_schema: snapshots
+    +path: snapshots

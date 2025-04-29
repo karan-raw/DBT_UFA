@@ -1,0 +1,5 @@
+sources:
+  - name: dc_dc_frontendtest_003
+    schema: dc_dc_frontendtest_003
+    tables:
+      - name: shopgql_hrt_products
