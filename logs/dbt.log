@@ -8994,3 +8994,1731 @@ having count(*) > 1
 [0m15:05:15.882312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E00994E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E010315910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E010317E50>]}
 [0m15:05:15.884313 [debug] [MainThread]: Flushing usage events
 [0m15:05:17.748160 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:53:34.854979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1235742D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F123520150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F123030350>]}
+
+
+============================== 15:53:34.862985 | c5f886e0-7502-4c3b-9dba-1a17408e0ad5 ==============================
+[0m15:53:34.862985 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:53:34.863985 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Employee\\.dbt', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:53:34.913982 [info ] [MainThread]: dbt version: 1.10.0-b2
+[0m15:53:34.914982 [info ] [MainThread]: python version: 3.11.5
+[0m15:53:34.914982 [info ] [MainThread]: python path: C:\Users\Employee\Documents\DBT_UFA\.venv\Scripts\python.exe
+[0m15:53:34.915991 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m15:53:34.916985 [info ] [MainThread]: Using profiles dir at C:\Users\Employee\.dbt
+[0m15:53:34.916985 [info ] [MainThread]: Using profiles.yml file at C:\Users\Employee\.dbt\profiles.yml
+[0m15:53:34.917982 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Employee\Documents\DBT_UFA\dbt_project.yml
+[0m15:53:35.009844 [info ] [MainThread]: Configuration:
+[0m15:53:35.010827 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m15:53:35.011814 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:53:35.011814 [info ] [MainThread]: Required dependencies:
+[0m15:53:35.012813 [debug] [MainThread]: Executing "git --help"
+[0m15:53:35.041832 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:53:35.042834 [debug] [MainThread]: STDERR: "b''"
+[0m15:53:35.043831 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:53:35.044834 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:53:35.045830 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:53:35.047001 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\Employee\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:53:35.048087 [debug] [MainThread]: Command `dbt debug` failed at 15:53:35.048087 after 0.28 seconds
+[0m15:53:35.048087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F123548590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F11CE68990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F123030410>]}
+[0m15:53:35.049014 [debug] [MainThread]: Flushing usage events
+[0m15:53:36.139123 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:54:43.495667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8226BE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8226AED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D8226A990>]}
+
+
+============================== 15:54:43.502687 | 0fb019fe-82ca-43ab-9376-dab92685c1fc ==============================
+[0m15:54:43.502687 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:54:43.503673 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:54:43.552961 [info ] [MainThread]: dbt version: 1.10.0-b2
+[0m15:54:43.553961 [info ] [MainThread]: python version: 3.11.5
+[0m15:54:43.555377 [info ] [MainThread]: python path: C:\Users\Employee\Documents\DBT_UFA\.venv\Scripts\python.exe
+[0m15:54:43.556386 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m15:54:44.000621 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:54:44.000621 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m15:54:44.448695 [info ] [MainThread]: Using profiles dir at C:\Users\Employee\Documents\DBT_UFA
+[0m15:54:44.450695 [info ] [MainThread]: Using profiles.yml file at C:\Users\Employee\Documents\DBT_UFA\profiles.yml
+[0m15:54:44.451697 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Employee\Documents\DBT_UFA\dbt_project.yml
+[0m15:54:44.454697 [info ] [MainThread]: adapter type: redshift
+[0m15:54:44.455712 [info ] [MainThread]: adapter version: 1.9.3
+[0m15:54:44.553697 [info ] [MainThread]: Configuration:
+[0m15:54:44.554697 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:54:44.556696 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:54:44.557698 [info ] [MainThread]: Required dependencies:
+[0m15:54:44.558697 [debug] [MainThread]: Executing "git --help"
+[0m15:54:44.596694 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:54:44.597693 [debug] [MainThread]: STDERR: "b''"
+[0m15:54:44.597693 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:54:44.598696 [info ] [MainThread]: Connection:
+[0m15:54:44.599697 [info ] [MainThread]:   host: datachannel-dev-4.ca0fbmphxrad.us-east-1.redshift.amazonaws.com
+[0m15:54:44.600696 [info ] [MainThread]:   user: load_user_dc_frontendtest_003
+[0m15:54:44.600696 [info ] [MainThread]:   port: 5439
+[0m15:54:44.601695 [info ] [MainThread]:   database: dc_frontendtest_003
+[0m15:54:44.603699 [info ] [MainThread]:   method: database
+[0m15:54:44.604696 [info ] [MainThread]:   cluster_id: None
+[0m15:54:44.605694 [info ] [MainThread]:   iam_profile: None
+[0m15:54:44.605694 [info ] [MainThread]:   schema: dc_dc_frontendtest_003
+[0m15:54:44.606695 [info ] [MainThread]:   sslmode: require
+[0m15:54:44.607694 [info ] [MainThread]:   region: None
+[0m15:54:44.607694 [info ] [MainThread]:   sslmode: require
+[0m15:54:44.608694 [info ] [MainThread]:   region: None
+[0m15:54:44.609693 [info ] [MainThread]:   autocreate: False
+[0m15:54:44.610695 [info ] [MainThread]:   db_groups: []
+[0m15:54:44.610695 [info ] [MainThread]:   ra3_node: False
+[0m15:54:44.611696 [info ] [MainThread]:   connect_timeout: None
+[0m15:54:44.612695 [info ] [MainThread]:   role: None
+[0m15:54:44.612695 [info ] [MainThread]:   retries: 1
+[0m15:54:44.613696 [info ] [MainThread]:   autocommit: True
+[0m15:54:44.614696 [info ] [MainThread]:   access_key_id: None
+[0m15:54:44.614696 [info ] [MainThread]:   is_serverless: None
+[0m15:54:44.615695 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m15:54:45.349710 [debug] [MainThread]: Acquiring new redshift connection 'debug'
+[0m15:54:45.356979 [debug] [MainThread]: Using redshift connection "debug"
+[0m15:54:45.357882 [debug] [MainThread]: On debug: select 1 as id
+[0m15:54:45.357882 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:54:45.358889 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:54:45.363880 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:54:48.337842 [debug] [MainThread]: SQL status: SUCCESS in 2.980 seconds
+[0m15:54:50.632957 [debug] [MainThread]: On debug: Close
+[0m15:54:50.633872 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:54:50.635871 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:54:50.636963 [debug] [MainThread]: Command `dbt debug` succeeded at 15:54:50.636963 after 7.28 seconds
+[0m15:54:50.637958 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:54:50.637958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D83BBD490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DFBA68910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D83A84650>]}
+[0m15:54:50.638903 [debug] [MainThread]: Flushing usage events
+[0m15:54:51.558968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:55:00.091999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001964191FA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019641925C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019641924990>]}
+
+
+============================== 15:55:00.099996 | d9da70f4-8a38-4ee7-9985-ee8dc129f3a0 ==============================
+[0m15:55:00.099996 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:55:00.102283 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:55:00.386356 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:55:00.387357 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m15:55:00.641364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd9da70f4-8a38-4ee7-9985-ee8dc129f3a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196418DB650>]}
+[0m15:55:00.689272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd9da70f4-8a38-4ee7-9985-ee8dc129f3a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001963E5B1210>]}
+[0m15:55:00.691275 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m15:55:01.015148 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m15:55:02.587991 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 1 files changed.
+[0m15:55:02.588990 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://models\product_var_macro.sql
+[0m15:55:02.588990 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://macros\get_products_var.sql
+[0m15:55:02.589991 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://models\schema.yml
+[0m15:55:02.874520 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two sources with the name "dc_dc_frontendtest_003_shopgql_hrt_products".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for source("dc_dc_frontendtest_003", "shopgql_hrt_products").
+  
+  To fix this, change the name of one of these resources:
+  - source.DBT_Pr_UFA.dc_dc_frontendtest_003.shopgql_hrt_products (models\schema.yml)
+  - source.DBT_Pr_UFA.dc_dc_frontendtest_003.shopgql_hrt_products (snapshots\schema.yml)
+[0m15:55:02.875422 [debug] [MainThread]: Command `dbt run` failed at 15:55:02.875422 after 2.92 seconds
+[0m15:55:02.876523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196414E3E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196436B2250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019641927B50>]}
+[0m15:55:02.876523 [debug] [MainThread]: Flushing usage events
+[0m15:55:03.822810 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:55:53.922964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F44F3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F453F850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F4103ED0>]}
+
+
+============================== 15:55:53.927047 | d26036a9-dfa7-475c-addd-9003be2bd05b ==============================
+[0m15:55:53.927047 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:55:53.928970 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:55:54.208006 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:55:54.208006 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m15:55:54.396684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd26036a9-dfa7-475c-addd-9003be2bd05b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F142E2D0>]}
+[0m15:55:54.445595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd26036a9-dfa7-475c-addd-9003be2bd05b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F11C1B90>]}
+[0m15:55:54.448449 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m15:55:54.701656 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m15:55:54.901916 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m15:55:54.902940 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://macros\get_products_var.sql
+[0m15:55:54.903836 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://models\product_var_macro.sql
+[0m15:55:54.903836 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://models\schema.yml
+[0m15:55:54.904874 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://snapshots\schema.yml
+[0m15:55:55.335929 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two sources with the name "dc_dc_frontendtest_003_shopgql_hrt_products".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for source("dc_dc_frontendtest_003", "shopgql_hrt_products").
+  
+  To fix this, change the name of one of these resources:
+  - source.DBT_Pr_UFA.dc_dc_frontendtest_003.shopgql_hrt_products (snapshots\schema.yml)
+  - source.DBT_Pr_UFA.dc_dc_frontendtest_003.shopgql_hrt_products (models\schema.yml)
+[0m15:55:55.337836 [debug] [MainThread]: Command `dbt run` failed at 15:55:55.337836 after 1.50 seconds
+[0m15:55:55.338839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227EDB2E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227EDDD8990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227F63B2F50>]}
+[0m15:55:55.338839 [debug] [MainThread]: Flushing usage events
+[0m15:55:56.574541 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:56:27.868456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D74E8ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D750E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D750EE90>]}
+
+
+============================== 15:56:27.873600 | 800ec935-48ed-4894-bc39-9f0a36b8652e ==============================
+[0m15:56:27.873600 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:56:27.874339 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:56:28.162274 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:56:28.163296 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m15:56:28.343939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D7CA7ED0>]}
+[0m15:56:28.391639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D41E12D0>]}
+[0m15:56:28.394474 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m15:56:28.638295 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m15:56:28.960897 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 1 files changed.
+[0m15:56:28.961889 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://macros\get_products_var.sql
+[0m15:56:28.962895 [debug] [MainThread]: Partial parsing: added file: DBT_Pr_UFA://models\product_var_macro.sql
+[0m15:56:28.963894 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://snapshots\schema.yml
+[0m15:56:29.677328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D6E3B310>]}
+[0m15:56:29.827805 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m15:56:29.877256 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m15:56:29.953839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D6097690>]}
+[0m15:56:29.954743 [info ] [MainThread]: Found 5 models, 4 data tests, 1 snapshot, 2 sources, 505 macros
+[0m15:56:29.955777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D74BA410>]}
+[0m15:56:29.958743 [info ] [MainThread]: 
+[0m15:56:29.959743 [info ] [MainThread]: Concurrency: 1 threads (target='redshift')
+[0m15:56:29.959743 [info ] [MainThread]: 
+[0m15:56:29.960742 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m15:56:29.967745 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003'
+[0m15:56:29.986348 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003"
+[0m15:56:29.987365 [debug] [ThreadPool]: On list_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003"} */
+
+    select distinct nspname from pg_namespace
+[0m15:56:29.988349 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:56:29.989348 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:29.993346 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:32.967043 [debug] [ThreadPool]: SQL status: SUCCESS in 2.979 seconds
+[0m15:56:33.059047 [debug] [ThreadPool]: On list_dc_frontendtest_003: Close
+[0m15:56:33.062068 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003_dc_dc_frontendtest_003'
+[0m15:56:33.069052 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m15:56:33.069052 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: BEGIN
+[0m15:56:33.069972 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:56:33.069972 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:33.071010 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:36.253001 [debug] [ThreadPool]: SQL status: SUCCESS in 3.183 seconds
+[0m15:56:36.253910 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m15:56:36.254906 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_dc_dc_frontendtest_003"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'dc_dc_frontendtest_003'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'dc_dc_frontendtest_003'
+[0m15:56:38.357639 [debug] [ThreadPool]: SQL status: SUCCESS in 2.103 seconds
+[0m15:56:38.397519 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: ROLLBACK
+[0m15:56:38.883220 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: Close
+[0m15:56:38.885218 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dc_frontendtest_003_dc_dc_frontendtest_003, now list_dc_frontendtest_003_snapshots)
+[0m15:56:38.955310 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m15:56:39.016210 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: BEGIN
+[0m15:56:39.063215 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:56:39.109797 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:39.156401 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:42.063035 [debug] [ThreadPool]: SQL status: SUCCESS in 3.000 seconds
+[0m15:56:42.064131 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m15:56:42.064131 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_snapshots"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'snapshots'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'snapshots'
+[0m15:56:42.643142 [debug] [ThreadPool]: SQL status: SUCCESS in 0.578 seconds
+[0m15:56:42.648131 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: ROLLBACK
+[0m15:56:43.144626 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: Close
+[0m15:56:43.159033 [debug] [MainThread]: Using redshift connection "master"
+[0m15:56:43.160418 [debug] [MainThread]: On master: BEGIN
+[0m15:56:43.160418 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:56:43.161443 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:43.162438 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:45.805943 [debug] [MainThread]: SQL status: SUCCESS in 2.645 seconds
+[0m15:56:45.807041 [debug] [MainThread]: Using redshift connection "master"
+[0m15:56:45.807041 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m15:56:46.535928 [debug] [MainThread]: SQL status: SUCCESS in 0.728 seconds
+[0m15:56:46.543929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D9A5EB90>]}
+[0m15:56:46.545929 [debug] [MainThread]: On master: ROLLBACK
+[0m15:56:47.007577 [debug] [MainThread]: Using redshift connection "master"
+[0m15:56:47.008588 [debug] [MainThread]: On master: BEGIN
+[0m15:56:47.236453 [debug] [MainThread]: SQL status: SUCCESS in 0.227 seconds
+[0m15:56:47.237553 [debug] [MainThread]: On master: COMMIT
+[0m15:56:47.237553 [debug] [MainThread]: Using redshift connection "master"
+[0m15:56:47.238455 [debug] [MainThread]: On master: COMMIT
+[0m15:56:47.689480 [debug] [MainThread]: SQL status: SUCCESS in 0.451 seconds
+[0m15:56:47.690480 [debug] [MainThread]: On master: Close
+[0m15:56:47.700481 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_customers
+[0m15:56:47.701481 [info ] [Thread-1 (]: 1 of 5 START sql view model dc_dc_frontendtest_003.hrtg_customers .............. [RUN]
+[0m15:56:47.702482 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.DBT_Pr_UFA.hrtg_customers'
+[0m15:56:47.702482 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_customers
+[0m15:56:47.705481 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:47.720487 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_customers
+[0m15:56:47.801481 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:47.826481 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:47.827482 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m15:56:47.827482 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:56:47.828483 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:47.828483 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:50.680227 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.853 seconds
+[0m15:56:50.682342 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:50.684248 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m15:56:51.967101 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.278 seconds
+[0m15:56:51.988997 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:51.989997 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers" rename to "hrtg_customers__dbt_backup"
+[0m15:56:52.741362 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.751 seconds
+[0m15:56:52.749460 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:52.751373 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" rename to "hrtg_customers"
+[0m15:56:53.495026 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.744 seconds
+[0m15:56:53.512235 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m15:56:53.512235 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:53.513235 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m15:56:54.080949 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.567 seconds
+[0m15:56:54.084056 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:54.085065 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m15:56:54.574094 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.489 seconds
+[0m15:56:54.581194 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup"
+[0m15:56:54.585179 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:54.586100 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup" cascade
+[0m15:56:55.096078 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.509 seconds
+[0m15:56:55.100072 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m15:56:55.101972 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:55.101972 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m15:56:55.416165 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.314 seconds
+[0m15:56:55.418272 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m15:56:55.420278 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m15:56:55.663986 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.242 seconds
+[0m15:56:55.668971 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: ROLLBACK
+[0m15:56:56.163879 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: Close
+[0m15:56:56.167885 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D6E28A10>]}
+[0m15:56:56.168878 [info ] [Thread-1 (]: 1 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_customers ......... [[32mSUCCESS[0m in 8.46s]
+[0m15:56:56.169895 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_customers
+[0m15:56:56.170952 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_products
+[0m15:56:56.170952 [info ] [Thread-1 (]: 2 of 5 START sql view model dc_dc_frontendtest_003.hrtg_products ............... [RUN]
+[0m15:56:56.171960 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_customers, now model.DBT_Pr_UFA.hrtg_products)
+[0m15:56:56.172878 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_products
+[0m15:56:56.174991 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_products"
+[0m15:56:56.215324 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_products
+[0m15:56:56.262406 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_products"
+[0m15:56:56.304952 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:56:56.304952 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m15:56:56.306078 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:56:56.306078 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:56:56.307099 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:56:59.689516 [debug] [Thread-1 (]: SQL status: SUCCESS in 3.383 seconds
+[0m15:56:59.691451 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:56:59.693452 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" as (
+    select t1.id, t1.title product_title, t1.producttype, t1.updatedat,
+       t2.sku, t2.title variant_title, t2.price
+from dc_dc_frontendtest_003.shopgql_hrt_products t1
+join dc_dc_frontendtest_003.shopgql_hrt_products_variants t2
+on t1.id=t2.hrt_products_id
+  ) ;
+[0m15:57:01.243305 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.549 seconds
+[0m15:57:01.334088 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:01.334088 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products" rename to "hrtg_products__dbt_backup"
+[0m15:57:02.241155 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.906 seconds
+[0m15:57:02.245154 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:02.246156 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" rename to "hrtg_products"
+[0m15:57:03.172422 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.926 seconds
+[0m15:57:03.174428 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m15:57:03.175427 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:03.175427 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m15:57:03.814091 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.637 seconds
+[0m15:57:03.816083 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:03.818089 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m15:57:04.440432 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.622 seconds
+[0m15:57:04.447540 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup"
+[0m15:57:04.448547 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:04.449558 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup" cascade
+[0m15:57:05.024875 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.574 seconds
+[0m15:57:05.027868 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m15:57:05.028869 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:05.028869 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m15:57:05.383876 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.354 seconds
+[0m15:57:05.385893 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m15:57:05.386892 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m15:57:05.695359 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.307 seconds
+[0m15:57:05.698356 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: ROLLBACK
+[0m15:57:06.325070 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: Close
+[0m15:57:06.328090 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217DA32A410>]}
+[0m15:57:06.330080 [info ] [Thread-1 (]: 2 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_products .......... [[32mSUCCESS[0m in 10.16s]
+[0m15:57:06.331085 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_products
+[0m15:57:06.331085 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.m2
+[0m15:57:06.332083 [info ] [Thread-1 (]: 3 of 5 START sql view model dc_dc_frontendtest_003.m2 .......................... [RUN]
+[0m15:57:06.334246 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_products, now model.DBT_Pr_UFA.m2)
+[0m15:57:06.335241 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.m2
+[0m15:57:06.338329 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.m2"
+[0m15:57:06.357101 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.m2
+[0m15:57:06.407162 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.m2"
+[0m15:57:06.414000 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m15:57:06.414000 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: BEGIN
+[0m15:57:06.414999 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:57:06.414999 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:57:06.415999 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:57:09.044378 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.629 seconds
+[0m15:57:09.046372 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m15:57:09.047377 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.m2"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."m2__dbt_tmp" as (
+    select * from dc_dc_frontendtest_003.shopgql_hrtg_customers;
+  ) ;
+[0m15:57:09.285080 [debug] [Thread-1 (]: Redshift adapter: Redshift error: syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+[0m15:57:09.287190 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: ROLLBACK
+[0m15:57:09.746144 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: Close
+[0m15:57:09.796071 [debug] [Thread-1 (]: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m15:57:09.797175 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D9BAD790>]}
+[0m15:57:09.798111 [error] [Thread-1 (]: 3 of 5 ERROR creating sql view model dc_dc_frontendtest_003.m2 ................. [[31mERROR[0m in 3.46s]
+[0m15:57:09.799066 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.m2
+[0m15:57:09.800066 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.product_var_macro
+[0m15:57:09.800066 [debug] [Thread-4 (]: Marking all children of 'model.DBT_Pr_UFA.m2' to be skipped because of status 'error'.  Reason: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql.
+[0m15:57:09.801121 [info ] [Thread-1 (]: 4 of 5 START sql view model dc_dc_frontendtest_003.product_var_macro ........... [RUN]
+[0m15:57:09.803073 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.m2, now model.DBT_Pr_UFA.product_var_macro)
+[0m15:57:09.804071 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.product_var_macro
+[0m15:57:09.943363 [debug] [Thread-1 (]: Compilation Error in model product_var_macro (models\product_var_macro.sql)
+  'get_products_var' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m15:57:09.944385 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D9398BD0>]}
+[0m15:57:09.945310 [error] [Thread-1 (]: 4 of 5 ERROR creating sql view model dc_dc_frontendtest_003.product_var_macro .. [[31mERROR[0m in 0.14s]
+[0m15:57:09.946308 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.product_var_macro
+[0m15:57:09.947310 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.transf
+[0m15:57:09.947310 [debug] [Thread-4 (]: Marking all children of 'model.DBT_Pr_UFA.product_var_macro' to be skipped because of status 'error'.  Reason: Compilation Error in model product_var_macro (models\product_var_macro.sql)
+  'get_products_var' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps"..
+[0m15:57:09.948305 [info ] [Thread-1 (]: 5 of 5 START sql view model dc_dc_frontendtest_003.transf ...................... [RUN]
+[0m15:57:09.949305 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.product_var_macro, now model.DBT_Pr_UFA.transf)
+[0m15:57:09.950331 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.transf
+[0m15:57:09.953395 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.transf"
+[0m15:57:09.958306 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.transf
+[0m15:57:10.016018 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.transf"
+[0m15:57:10.023045 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:10.023045 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m15:57:10.024039 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:57:10.024039 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:57:10.025040 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:57:12.685764 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.661 seconds
+[0m15:57:12.687848 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:12.688818 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m15:57:13.889676 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.200 seconds
+[0m15:57:13.925670 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:13.926671 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf" rename to "transf__dbt_backup"
+[0m15:57:14.644801 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.718 seconds
+[0m15:57:14.648797 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:14.648797 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" rename to "transf"
+[0m15:57:15.351176 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.702 seconds
+[0m15:57:15.353221 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m15:57:15.354230 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:15.354230 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m15:57:15.907207 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.552 seconds
+[0m15:57:15.914314 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:15.915314 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m15:57:16.380173 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.464 seconds
+[0m15:57:16.387254 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup"
+[0m15:57:16.388155 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:16.388155 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup" cascade
+[0m15:57:16.871371 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.482 seconds
+[0m15:57:16.874458 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m15:57:16.876373 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:16.877466 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m15:57:17.251527 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.373 seconds
+[0m15:57:17.252590 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m15:57:17.253514 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m15:57:17.488197 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.234 seconds
+[0m15:57:17.490197 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: ROLLBACK
+[0m15:57:17.965459 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: Close
+[0m15:57:17.966469 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '800ec935-48ed-4894-bc39-9f0a36b8652e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D8F29D90>]}
+[0m15:57:17.968470 [info ] [Thread-1 (]: 5 of 5 OK created sql view model dc_dc_frontendtest_003.transf ................. [[32mSUCCESS[0m in 8.02s]
+[0m15:57:17.970814 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.transf
+[0m15:57:17.973811 [debug] [MainThread]: Using redshift connection "master"
+[0m15:57:17.973811 [debug] [MainThread]: On master: BEGIN
+[0m15:57:17.974814 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:57:17.974814 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m15:57:17.975816 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m15:57:21.239018 [debug] [MainThread]: SQL status: SUCCESS in 3.265 seconds
+[0m15:57:21.241103 [debug] [MainThread]: On master: COMMIT
+[0m15:57:21.242120 [debug] [MainThread]: Using redshift connection "master"
+[0m15:57:21.242120 [debug] [MainThread]: On master: COMMIT
+[0m15:57:21.822300 [debug] [MainThread]: SQL status: SUCCESS in 0.580 seconds
+[0m15:57:21.824274 [debug] [MainThread]: On master: Close
+[0m15:57:21.826180 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:57:21.827267 [debug] [MainThread]: Connection 'list_dc_frontendtest_003' was properly closed.
+[0m15:57:21.828269 [debug] [MainThread]: Connection 'list_dc_frontendtest_003_snapshots' was properly closed.
+[0m15:57:21.829180 [debug] [MainThread]: Connection 'model.DBT_Pr_UFA.transf' was properly closed.
+[0m15:57:21.830267 [info ] [MainThread]: 
+[0m15:57:21.832231 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 51.87 seconds (51.87s).
+[0m15:57:21.834247 [debug] [MainThread]: Command end result
+[0m15:57:21.908665 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m15:57:21.916778 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m15:57:21.951777 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Employee\Documents\DBT_UFA\target\run_results.json
+[0m15:57:21.952776 [info ] [MainThread]: 
+[0m15:57:21.952776 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m15:57:21.953775 [info ] [MainThread]: 
+[0m15:57:21.954776 [error] [MainThread]: [31mFailure in model m2 (models\m2.sql)[0m
+[0m15:57:21.955775 [error] [MainThread]:   Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m15:57:21.956774 [info ] [MainThread]: 
+[0m15:57:21.956774 [info ] [MainThread]:   compiled code at target\compiled\DBT_Pr_UFA\models\m2.sql
+[0m15:57:21.957777 [info ] [MainThread]: 
+[0m15:57:21.958677 [error] [MainThread]: [31mFailure in model product_var_macro (models\product_var_macro.sql)[0m
+[0m15:57:21.959684 [error] [MainThread]:   Compilation Error in model product_var_macro (models\product_var_macro.sql)
+  'get_products_var' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m15:57:21.960699 [info ] [MainThread]: 
+[0m15:57:21.961709 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=5
+[0m15:57:21.963708 [debug] [MainThread]: Command `dbt run` failed at 15:57:21.963708 after 54.18 seconds
+[0m15:57:21.964712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D750E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D67CA0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217D0B9F310>]}
+[0m15:57:21.964712 [debug] [MainThread]: Flushing usage events
+[0m15:57:23.208539 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:59:58.667490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F8A1ED50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F8A1E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F8A1EA90>]}
+
+
+============================== 15:59:58.675490 | f45c3db7-86c8-42f0-8279-ff30ef6170ca ==============================
+[0m15:59:58.675490 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m15:59:58.676490 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:59:59.058822 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m15:59:59.059900 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m15:59:59.302041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F91D6FD0>]}
+[0m15:59:59.348041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F56A1410>]}
+[0m15:59:59.350042 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m15:59:59.737924 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m15:59:59.992844 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m15:59:59.993846 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://macros\get_products_var.sql
+[0m16:00:00.118474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FA40AF90>]}
+[0m16:00:00.269769 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:00:00.281550 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:00:00.382308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FA4B2B10>]}
+[0m16:00:00.384321 [info ] [MainThread]: Found 5 models, 4 data tests, 1 snapshot, 2 sources, 505 macros
+[0m16:00:00.385349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FA271810>]}
+[0m16:00:00.387411 [info ] [MainThread]: 
+[0m16:00:00.388630 [info ] [MainThread]: Concurrency: 1 threads (target='redshift')
+[0m16:00:00.389330 [info ] [MainThread]: 
+[0m16:00:00.390340 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m16:00:00.395338 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003'
+[0m16:00:00.414019 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003"
+[0m16:00:00.414019 [debug] [ThreadPool]: On list_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003"} */
+
+    select distinct nspname from pg_namespace
+[0m16:00:00.415020 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:00:00.416022 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:00.419019 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:03.272295 [debug] [ThreadPool]: SQL status: SUCCESS in 2.857 seconds
+[0m16:00:03.416540 [debug] [ThreadPool]: On list_dc_frontendtest_003: Close
+[0m16:00:03.421453 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003_snapshots'
+[0m16:00:03.428443 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:00:03.428443 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: BEGIN
+[0m16:00:03.429445 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:00:03.429445 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:03.430445 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:06.133804 [debug] [ThreadPool]: SQL status: SUCCESS in 2.705 seconds
+[0m16:00:06.135890 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:00:06.136897 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_snapshots"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'snapshots'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'snapshots'
+[0m16:00:07.013716 [debug] [ThreadPool]: SQL status: SUCCESS in 0.876 seconds
+[0m16:00:07.015622 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: ROLLBACK
+[0m16:00:07.483011 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: Close
+[0m16:00:07.483973 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dc_frontendtest_003_snapshots, now list_dc_frontendtest_003_dc_dc_frontendtest_003)
+[0m16:00:07.488980 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:00:07.488980 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: BEGIN
+[0m16:00:07.489991 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:00:07.489991 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:07.490981 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:10.147772 [debug] [ThreadPool]: SQL status: SUCCESS in 2.658 seconds
+[0m16:00:10.149042 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:00:10.150061 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_dc_dc_frontendtest_003"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'dc_dc_frontendtest_003'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'dc_dc_frontendtest_003'
+[0m16:00:11.623416 [debug] [ThreadPool]: SQL status: SUCCESS in 1.473 seconds
+[0m16:00:11.661422 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: ROLLBACK
+[0m16:00:12.123748 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: Close
+[0m16:00:12.545663 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:12.546641 [debug] [MainThread]: On master: BEGIN
+[0m16:00:12.546641 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:00:12.547641 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:12.547641 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:15.375358 [debug] [MainThread]: SQL status: SUCCESS in 2.828 seconds
+[0m16:00:15.377367 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:15.378368 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m16:00:16.506812 [debug] [MainThread]: SQL status: SUCCESS in 1.127 seconds
+[0m16:00:16.514790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FAE2F090>]}
+[0m16:00:16.515701 [debug] [MainThread]: On master: ROLLBACK
+[0m16:00:16.986444 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:16.986444 [debug] [MainThread]: On master: BEGIN
+[0m16:00:17.219194 [debug] [MainThread]: SQL status: SUCCESS in 0.232 seconds
+[0m16:00:17.220201 [debug] [MainThread]: On master: COMMIT
+[0m16:00:17.221187 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:17.221187 [debug] [MainThread]: On master: COMMIT
+[0m16:00:17.690397 [debug] [MainThread]: SQL status: SUCCESS in 0.468 seconds
+[0m16:00:17.691397 [debug] [MainThread]: On master: Close
+[0m16:00:17.700041 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_customers
+[0m16:00:17.701058 [info ] [Thread-1 (]: 1 of 5 START sql view model dc_dc_frontendtest_003.hrtg_customers .............. [RUN]
+[0m16:00:17.702041 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.DBT_Pr_UFA.hrtg_customers'
+[0m16:00:17.703041 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_customers
+[0m16:00:17.706059 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:17.713040 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_customers
+[0m16:00:17.794533 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:17.806466 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:17.807466 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:00:17.808466 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m16:00:17.808466 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:17.809466 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:20.361015 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.552 seconds
+[0m16:00:20.362021 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:20.363938 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m16:00:21.639651 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.274 seconds
+[0m16:00:21.667144 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:21.669759 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers" rename to "hrtg_customers__dbt_backup"
+[0m16:00:22.333670 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.663 seconds
+[0m16:00:22.340684 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:22.340684 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" rename to "hrtg_customers"
+[0m16:00:23.002462 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.661 seconds
+[0m16:00:23.021476 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:00:23.022510 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:23.022510 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:00:23.689682 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.666 seconds
+[0m16:00:23.692784 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:23.693786 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:00:24.133387 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.438 seconds
+[0m16:00:24.140568 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup"
+[0m16:00:24.147075 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:24.148074 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup" cascade
+[0m16:00:24.614111 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.465 seconds
+[0m16:00:24.615109 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:00:24.616110 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:24.617119 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:00:25.058650 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.441 seconds
+[0m16:00:25.060758 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:00:25.062752 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:00:25.284672 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.220 seconds
+[0m16:00:25.286671 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: ROLLBACK
+[0m16:00:25.722947 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: Close
+[0m16:00:25.728375 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F837FA90>]}
+[0m16:00:25.729328 [info ] [Thread-1 (]: 1 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_customers ......... [[32mSUCCESS[0m in 8.02s]
+[0m16:00:25.730422 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_customers
+[0m16:00:25.730422 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_products
+[0m16:00:25.731348 [info ] [Thread-1 (]: 2 of 5 START sql view model dc_dc_frontendtest_003.hrtg_products ............... [RUN]
+[0m16:00:25.732326 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_customers, now model.DBT_Pr_UFA.hrtg_products)
+[0m16:00:25.732326 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_products
+[0m16:00:25.735328 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:25.750910 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_products
+[0m16:00:25.802160 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:25.829087 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:25.829087 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:00:25.830077 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:00:25.831074 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:25.831074 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:28.422363 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.592 seconds
+[0m16:00:28.423367 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:28.425276 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" as (
+    select t1.id, t1.title product_title, t1.producttype, t1.updatedat,
+       t2.sku, t2.title variant_title, t2.price
+from dc_dc_frontendtest_003.shopgql_hrt_products t1
+join dc_dc_frontendtest_003.shopgql_hrt_products_variants t2
+on t1.id=t2.hrt_products_id
+  ) ;
+[0m16:00:29.670646 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.244 seconds
+[0m16:00:29.692732 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:29.692732 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products" rename to "hrtg_products__dbt_backup"
+[0m16:00:30.361744 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.668 seconds
+[0m16:00:30.368740 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:30.370743 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" rename to "hrtg_products"
+[0m16:00:31.048232 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.677 seconds
+[0m16:00:31.049229 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:00:31.050227 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:31.051235 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:00:31.714421 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.663 seconds
+[0m16:00:31.716530 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:31.718447 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:00:32.178777 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.459 seconds
+[0m16:00:32.183852 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup"
+[0m16:00:32.184769 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:32.185769 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup" cascade
+[0m16:00:32.642749 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.456 seconds
+[0m16:00:32.643759 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:00:32.644754 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:32.644754 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:00:33.087107 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.441 seconds
+[0m16:00:33.089116 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:00:33.090103 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:00:33.314173 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.223 seconds
+[0m16:00:33.317084 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: ROLLBACK
+[0m16:00:33.762169 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: Close
+[0m16:00:33.764087 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FB4C0250>]}
+[0m16:00:33.766076 [info ] [Thread-1 (]: 2 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_products .......... [[32mSUCCESS[0m in 8.03s]
+[0m16:00:33.768079 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_products
+[0m16:00:33.768079 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.m2
+[0m16:00:33.769075 [info ] [Thread-1 (]: 3 of 5 START sql view model dc_dc_frontendtest_003.m2 .......................... [RUN]
+[0m16:00:33.770178 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_products, now model.DBT_Pr_UFA.m2)
+[0m16:00:33.771076 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.m2
+[0m16:00:33.773075 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.m2"
+[0m16:00:33.780076 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.m2
+[0m16:00:33.834266 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.m2"
+[0m16:00:33.840180 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m16:00:33.841182 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: BEGIN
+[0m16:00:33.841182 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:00:33.842182 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:33.842182 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:36.395205 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.553 seconds
+[0m16:00:36.396263 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m16:00:36.398214 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.m2"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."m2__dbt_tmp" as (
+    select * from dc_dc_frontendtest_003.shopgql_hrtg_customers;
+  ) ;
+[0m16:00:36.625641 [debug] [Thread-1 (]: Redshift adapter: Redshift error: syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+[0m16:00:36.627561 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: ROLLBACK
+[0m16:00:37.071823 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: Close
+[0m16:00:37.079739 [debug] [Thread-1 (]: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m16:00:37.080740 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FB58E090>]}
+[0m16:00:37.080740 [error] [Thread-1 (]: 3 of 5 ERROR creating sql view model dc_dc_frontendtest_003.m2 ................. [[31mERROR[0m in 3.31s]
+[0m16:00:37.082803 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.m2
+[0m16:00:37.083831 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.product_var_macro
+[0m16:00:37.084744 [debug] [Thread-4 (]: Marking all children of 'model.DBT_Pr_UFA.m2' to be skipped because of status 'error'.  Reason: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql.
+[0m16:00:37.085807 [info ] [Thread-1 (]: 4 of 5 START sql view model dc_dc_frontendtest_003.product_var_macro ........... [RUN]
+[0m16:00:37.087830 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.m2, now model.DBT_Pr_UFA.product_var_macro)
+[0m16:00:37.087830 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.product_var_macro
+[0m16:00:37.091737 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:37.107362 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.product_var_macro
+[0m16:00:37.158361 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:37.173436 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:37.173436 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:00:37.174358 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:00:37.174358 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:37.175360 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:39.717792 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.543 seconds
+[0m16:00:39.719808 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:39.720808 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_tmp" as (
+    SELECT * FROM (
+    
+    SELECT 
+        t1.id, 
+        t1.title AS product_title, 
+        t1.producttype, 
+        t1.updatedat,
+        t2.sku, 
+        t2.title AS variant_title, 
+        t2.price
+    FROM "dc_frontendtest_003"."dc_dc_frontendtest_003"."shopgql_hrt_products" t1
+    JOIN "dc_frontendtest_003"."dc_dc_frontendtest_003"."shopgql_hrt_products_variants" t2
+        ON t1.id = t2.hrt_products_id
+
+) AS product_variants
+  ) ;
+[0m16:00:40.930802 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.208 seconds
+[0m16:00:40.937796 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:40.938711 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_tmp" rename to "product_var_macro"
+[0m16:00:41.596923 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.658 seconds
+[0m16:00:41.601017 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:00:41.602920 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:41.602920 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:00:42.193638 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.589 seconds
+[0m16:00:42.194548 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:42.195630 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:00:42.632877 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.436 seconds
+[0m16:00:42.636875 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_backup"
+[0m16:00:42.637877 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:42.638860 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_backup" cascade
+[0m16:00:43.083014 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.444 seconds
+[0m16:00:43.086099 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:00:43.088080 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:43.089097 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:00:43.496873 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.408 seconds
+[0m16:00:43.498999 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:00:43.500906 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:00:43.719737 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.218 seconds
+[0m16:00:43.722756 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: ROLLBACK
+[0m16:00:44.155441 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: Close
+[0m16:00:44.157332 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FB562010>]}
+[0m16:00:44.158332 [info ] [Thread-1 (]: 4 of 5 OK created sql view model dc_dc_frontendtest_003.product_var_macro ...... [[32mSUCCESS[0m in 7.07s]
+[0m16:00:44.159332 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.product_var_macro
+[0m16:00:44.160329 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.transf
+[0m16:00:44.160329 [info ] [Thread-1 (]: 5 of 5 START sql view model dc_dc_frontendtest_003.transf ...................... [RUN]
+[0m16:00:44.161335 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.product_var_macro, now model.DBT_Pr_UFA.transf)
+[0m16:00:44.162338 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.transf
+[0m16:00:44.164429 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.transf"
+[0m16:00:44.171810 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.transf
+[0m16:00:44.224527 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.transf"
+[0m16:00:44.230562 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:44.230562 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:00:44.231564 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:00:44.231564 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:44.232564 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:46.865814 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.634 seconds
+[0m16:00:46.866821 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:46.868004 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m16:00:48.068495 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.199 seconds
+[0m16:00:48.090487 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:48.090487 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf" rename to "transf__dbt_backup"
+[0m16:00:48.771065 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.679 seconds
+[0m16:00:48.778018 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:48.779017 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" rename to "transf"
+[0m16:00:49.457620 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.678 seconds
+[0m16:00:49.459737 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:00:49.460718 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:49.461629 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:00:50.139742 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.677 seconds
+[0m16:00:50.142745 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:50.144643 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:00:50.598828 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.453 seconds
+[0m16:00:50.604836 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup"
+[0m16:00:50.605838 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:50.605838 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup" cascade
+[0m16:00:51.075689 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.469 seconds
+[0m16:00:51.082794 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:00:51.084713 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:51.085794 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:00:51.485368 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.399 seconds
+[0m16:00:51.487337 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:00:51.489341 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:00:51.718850 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.227 seconds
+[0m16:00:51.719933 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: ROLLBACK
+[0m16:00:52.171434 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: Close
+[0m16:00:52.174539 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f45c3db7-86c8-42f0-8279-ff30ef6170ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6FB60E650>]}
+[0m16:00:52.175547 [info ] [Thread-1 (]: 5 of 5 OK created sql view model dc_dc_frontendtest_003.transf ................. [[32mSUCCESS[0m in 8.01s]
+[0m16:00:52.176450 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.transf
+[0m16:00:52.179494 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:52.180582 [debug] [MainThread]: On master: BEGIN
+[0m16:00:52.180582 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:00:52.181499 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:00:52.182502 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:00:54.703401 [debug] [MainThread]: SQL status: SUCCESS in 2.523 seconds
+[0m16:00:54.704401 [debug] [MainThread]: On master: COMMIT
+[0m16:00:54.705403 [debug] [MainThread]: Using redshift connection "master"
+[0m16:00:54.705403 [debug] [MainThread]: On master: COMMIT
+[0m16:00:55.143967 [debug] [MainThread]: SQL status: SUCCESS in 0.438 seconds
+[0m16:00:55.143967 [debug] [MainThread]: On master: Close
+[0m16:00:55.145358 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:00:55.146298 [debug] [MainThread]: Connection 'list_dc_frontendtest_003' was properly closed.
+[0m16:00:55.146298 [debug] [MainThread]: Connection 'list_dc_frontendtest_003_dc_dc_frontendtest_003' was properly closed.
+[0m16:00:55.146298 [debug] [MainThread]: Connection 'model.DBT_Pr_UFA.transf' was properly closed.
+[0m16:00:55.147257 [info ] [MainThread]: 
+[0m16:00:55.148264 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 54.76 seconds (54.76s).
+[0m16:00:55.150317 [debug] [MainThread]: Command end result
+[0m16:00:55.212691 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:00:55.220814 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:00:55.253507 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Employee\Documents\DBT_UFA\target\run_results.json
+[0m16:00:55.254402 [info ] [MainThread]: 
+[0m16:00:55.255411 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m16:00:55.256402 [info ] [MainThread]: 
+[0m16:00:55.256402 [error] [MainThread]: [31mFailure in model m2 (models\m2.sql)[0m
+[0m16:00:55.257402 [error] [MainThread]:   Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m16:00:55.258401 [info ] [MainThread]: 
+[0m16:00:55.259410 [info ] [MainThread]:   compiled code at target\compiled\DBT_Pr_UFA\models\m2.sql
+[0m16:00:55.260402 [info ] [MainThread]: 
+[0m16:00:55.261403 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=5
+[0m16:00:55.263405 [debug] [MainThread]: Command `dbt run` failed at 16:00:55.262408 after 56.69 seconds
+[0m16:00:55.263405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F200E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F8A1E9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6F8A1EF90>]}
+[0m16:00:55.264424 [debug] [MainThread]: Flushing usage events
+[0m16:00:56.403471 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:03:16.827145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD10DF190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD10E4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD10E7250>]}
+
+
+============================== 16:03:16.837145 | a21e7791-bab9-41cc-bd7c-a03c50ac999d ==============================
+[0m16:03:16.837145 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m16:03:16.838144 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:03:17.342652 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:03:17.343673 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:03:17.564913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD172FED0>]}
+[0m16:03:17.614010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BCDD90B50>]}
+[0m16:03:17.615005 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m16:03:17.961818 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m16:03:18.221649 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m16:03:18.222644 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://macros\get_products_var.sql
+[0m16:03:18.335026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD2AB9E90>]}
+[0m16:03:18.462452 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:03:18.472270 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:03:18.560157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD2B44F90>]}
+[0m16:03:18.561166 [info ] [MainThread]: Found 5 models, 4 data tests, 1 snapshot, 2 sources, 505 macros
+[0m16:03:18.562166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD1886990>]}
+[0m16:03:18.564164 [info ] [MainThread]: 
+[0m16:03:18.565165 [info ] [MainThread]: Concurrency: 1 threads (target='redshift')
+[0m16:03:18.566251 [info ] [MainThread]: 
+[0m16:03:18.567169 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m16:03:18.572520 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003'
+[0m16:03:18.588507 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003"
+[0m16:03:18.589510 [debug] [ThreadPool]: On list_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003"} */
+
+    select distinct nspname from pg_namespace
+[0m16:03:18.590515 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:03:18.590515 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:18.594511 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:21.281414 [debug] [ThreadPool]: SQL status: SUCCESS in 2.691 seconds
+[0m16:03:21.438261 [debug] [ThreadPool]: On list_dc_frontendtest_003: Close
+[0m16:03:21.443267 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003_dc_dc_frontendtest_003'
+[0m16:03:21.449272 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:03:21.450275 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: BEGIN
+[0m16:03:21.450275 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:03:21.451286 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:21.451286 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:24.254732 [debug] [ThreadPool]: SQL status: SUCCESS in 2.804 seconds
+[0m16:03:24.256731 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:03:24.257749 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_dc_dc_frontendtest_003"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'dc_dc_frontendtest_003'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'dc_dc_frontendtest_003'
+[0m16:03:25.791097 [debug] [ThreadPool]: SQL status: SUCCESS in 1.533 seconds
+[0m16:03:25.867667 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: ROLLBACK
+[0m16:03:26.362028 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: Close
+[0m16:03:26.364062 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dc_frontendtest_003_dc_dc_frontendtest_003, now list_dc_frontendtest_003_snapshots)
+[0m16:03:26.426107 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:03:26.483109 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: BEGIN
+[0m16:03:26.544065 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:03:26.622640 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:26.686588 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:29.858397 [debug] [ThreadPool]: SQL status: SUCCESS in 3.314 seconds
+[0m16:03:29.859399 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:03:29.860398 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_snapshots"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'snapshots'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'snapshots'
+[0m16:03:30.416876 [debug] [ThreadPool]: SQL status: SUCCESS in 0.556 seconds
+[0m16:03:30.421977 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: ROLLBACK
+[0m16:03:30.907198 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: Close
+[0m16:03:30.933496 [debug] [MainThread]: Using redshift connection "master"
+[0m16:03:30.935495 [debug] [MainThread]: On master: BEGIN
+[0m16:03:30.935495 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:03:30.937496 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:30.939498 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:33.836977 [debug] [MainThread]: SQL status: SUCCESS in 2.901 seconds
+[0m16:03:33.838010 [debug] [MainThread]: Using redshift connection "master"
+[0m16:03:33.838962 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m16:03:34.600963 [debug] [MainThread]: SQL status: SUCCESS in 0.762 seconds
+[0m16:03:34.617068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD2DC3950>]}
+[0m16:03:34.618330 [debug] [MainThread]: On master: ROLLBACK
+[0m16:03:35.112090 [debug] [MainThread]: Using redshift connection "master"
+[0m16:03:35.114088 [debug] [MainThread]: On master: BEGIN
+[0m16:03:35.361479 [debug] [MainThread]: SQL status: SUCCESS in 0.247 seconds
+[0m16:03:35.362480 [debug] [MainThread]: On master: COMMIT
+[0m16:03:35.363480 [debug] [MainThread]: Using redshift connection "master"
+[0m16:03:35.363480 [debug] [MainThread]: On master: COMMIT
+[0m16:03:35.857241 [debug] [MainThread]: SQL status: SUCCESS in 0.493 seconds
+[0m16:03:35.858242 [debug] [MainThread]: On master: Close
+[0m16:03:35.866243 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_customers
+[0m16:03:35.867241 [info ] [Thread-1 (]: 1 of 5 START sql view model dc_dc_frontendtest_003.hrtg_customers .............. [RUN]
+[0m16:03:35.869243 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.DBT_Pr_UFA.hrtg_customers'
+[0m16:03:35.870242 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_customers
+[0m16:03:35.873241 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:35.881243 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_customers
+[0m16:03:35.995591 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:36.012598 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:36.013584 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:03:36.014585 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m16:03:36.014585 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:36.015612 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:38.656161 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.642 seconds
+[0m16:03:38.657162 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:38.658161 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m16:03:39.857188 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.198 seconds
+[0m16:03:39.880191 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:39.881278 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers" rename to "hrtg_customers__dbt_backup"
+[0m16:03:40.565880 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.684 seconds
+[0m16:03:40.571960 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:40.572962 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_tmp" rename to "hrtg_customers"
+[0m16:03:41.266645 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.692 seconds
+[0m16:03:41.280644 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:03:41.281644 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:41.282646 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:03:41.805705 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.523 seconds
+[0m16:03:41.806710 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:41.806710 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:03:42.262752 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.455 seconds
+[0m16:03:42.280651 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup"
+[0m16:03:42.289649 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:42.290651 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_customers"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_customers__dbt_backup" cascade
+[0m16:03:42.767042 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.476 seconds
+[0m16:03:42.769039 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:03:42.770023 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:42.770023 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: COMMIT
+[0m16:03:43.065977 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.295 seconds
+[0m16:03:43.065977 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_customers"
+[0m16:03:43.066977 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: BEGIN
+[0m16:03:43.293269 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.226 seconds
+[0m16:03:43.298286 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: ROLLBACK
+[0m16:03:43.753904 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_customers: Close
+[0m16:03:43.756890 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD34D4E50>]}
+[0m16:03:43.757891 [info ] [Thread-1 (]: 1 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_customers ......... [[32mSUCCESS[0m in 7.89s]
+[0m16:03:43.759890 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_customers
+[0m16:03:43.760892 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_products
+[0m16:03:43.760892 [info ] [Thread-1 (]: 2 of 5 START sql view model dc_dc_frontendtest_003.hrtg_products ............... [RUN]
+[0m16:03:43.762892 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_customers, now model.DBT_Pr_UFA.hrtg_products)
+[0m16:03:43.762892 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_products
+[0m16:03:43.765890 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:43.784325 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_products
+[0m16:03:43.835320 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:43.853452 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:43.854447 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:03:43.854447 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:03:43.855643 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:43.855643 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:46.607177 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.752 seconds
+[0m16:03:46.608444 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:46.608444 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" as (
+    select t1.id, t1.title product_title, t1.producttype, t1.updatedat,
+       t2.sku, t2.title variant_title, t2.price
+from dc_dc_frontendtest_003.shopgql_hrt_products t1
+join dc_dc_frontendtest_003.shopgql_hrt_products_variants t2
+on t1.id=t2.hrt_products_id
+  ) ;
+[0m16:03:47.855313 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.246 seconds
+[0m16:03:47.896316 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:47.898318 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products" rename to "hrtg_products__dbt_backup"
+[0m16:03:48.627355 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.729 seconds
+[0m16:03:48.634356 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:48.636353 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" rename to "hrtg_products"
+[0m16:03:49.367657 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.730 seconds
+[0m16:03:49.373745 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:03:49.375654 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:49.377655 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:03:49.985454 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.606 seconds
+[0m16:03:49.987474 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:49.988473 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:03:50.474522 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.484 seconds
+[0m16:03:50.483528 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup"
+[0m16:03:50.485508 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:50.487573 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup" cascade
+[0m16:03:51.001866 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.513 seconds
+[0m16:03:51.005867 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:03:51.008958 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:51.010867 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:03:51.471189 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.459 seconds
+[0m16:03:51.472190 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:03:51.474188 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:03:51.725270 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.250 seconds
+[0m16:03:51.729288 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: ROLLBACK
+[0m16:03:52.213011 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: Close
+[0m16:03:52.216004 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD3AF71D0>]}
+[0m16:03:52.218911 [info ] [Thread-1 (]: 2 of 5 OK created sql view model dc_dc_frontendtest_003.hrtg_products .......... [[32mSUCCESS[0m in 8.45s]
+[0m16:03:52.222007 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_products
+[0m16:03:52.223010 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.m2
+[0m16:03:52.225004 [info ] [Thread-1 (]: 3 of 5 START sql view model dc_dc_frontendtest_003.m2 .......................... [RUN]
+[0m16:03:52.227911 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.hrtg_products, now model.DBT_Pr_UFA.m2)
+[0m16:03:52.228909 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.m2
+[0m16:03:52.240016 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.m2"
+[0m16:03:52.248824 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.m2
+[0m16:03:52.366802 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.m2"
+[0m16:03:52.375797 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m16:03:52.376795 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: BEGIN
+[0m16:03:52.377798 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:03:52.378803 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:52.378803 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:55.077547 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.699 seconds
+[0m16:03:55.079543 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.m2"
+[0m16:03:55.081534 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.m2"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."m2__dbt_tmp" as (
+    select * from dc_dc_frontendtest_003.shopgql_hrtg_customers;
+  ) ;
+[0m16:03:55.316130 [debug] [Thread-1 (]: Redshift adapter: Redshift error: syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+[0m16:03:55.318025 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: ROLLBACK
+[0m16:03:55.784510 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.m2: Close
+[0m16:03:55.795625 [debug] [Thread-1 (]: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m16:03:55.797509 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD3C1FD10>]}
+[0m16:03:55.799514 [error] [Thread-1 (]: 3 of 5 ERROR creating sql view model dc_dc_frontendtest_003.m2 ................. [[31mERROR[0m in 3.57s]
+[0m16:03:55.802529 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.m2
+[0m16:03:55.803605 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.product_var_macro
+[0m16:03:55.805518 [debug] [Thread-4 (]: Marking all children of 'model.DBT_Pr_UFA.m2' to be skipped because of status 'error'.  Reason: Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql.
+[0m16:03:55.807608 [info ] [Thread-1 (]: 4 of 5 START sql view model dc_dc_frontendtest_003.product_var_macro ........... [RUN]
+[0m16:03:55.811512 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.m2, now model.DBT_Pr_UFA.product_var_macro)
+[0m16:03:55.812513 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.product_var_macro
+[0m16:03:55.823572 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.product_var_macro"
+[0m16:03:55.867446 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.product_var_macro
+[0m16:03:55.943372 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.product_var_macro"
+[0m16:03:55.966552 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:03:55.967552 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:03:55.968551 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:03:55.969551 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:03:55.970559 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:03:58.704185 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.735 seconds
+[0m16:03:58.705606 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:03:58.707623 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_tmp" as (
+    SELECT * FROM (
+    
+    SELECT 
+        t1.id, 
+        t1.title AS product_title, 
+        t1.producttype, 
+        t1.updatedat,
+        t2.sku, 
+        t2.title AS variant_title,
+        t2.price
+    FROM dc_dc_frontendtest_003.shopgql_hrt_products t1
+    JOIN dc_dc_frontendtest_003.shopgql_hrt_products_variants t2
+        ON t1.id = t2.hrt_products_id
+
+) AS product_variants
+  ) ;
+[0m16:03:59.919700 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.211 seconds
+[0m16:03:59.970814 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:03:59.972784 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro" rename to "product_var_macro__dbt_backup"
+[0m16:04:00.672345 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.698 seconds
+[0m16:04:00.679346 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:00.680346 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_tmp" rename to "product_var_macro"
+[0m16:04:01.386962 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.705 seconds
+[0m16:04:01.391060 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:04:01.392974 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:01.393965 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:04:01.932110 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.536 seconds
+[0m16:04:01.934110 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:01.936110 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:04:02.402642 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.466 seconds
+[0m16:04:02.408662 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_backup"
+[0m16:04:02.409662 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:02.410678 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.product_var_macro"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."product_var_macro__dbt_backup" cascade
+[0m16:04:02.901782 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.491 seconds
+[0m16:04:02.904781 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:04:02.905781 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:02.905781 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: COMMIT
+[0m16:04:03.207362 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.300 seconds
+[0m16:04:03.209473 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.product_var_macro"
+[0m16:04:03.211464 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: BEGIN
+[0m16:04:03.445521 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.233 seconds
+[0m16:04:03.448875 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: ROLLBACK
+[0m16:04:03.923235 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.product_var_macro: Close
+[0m16:04:03.925231 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD3C460D0>]}
+[0m16:04:03.928226 [info ] [Thread-1 (]: 4 of 5 OK created sql view model dc_dc_frontendtest_003.product_var_macro ...... [[32mSUCCESS[0m in 8.11s]
+[0m16:04:03.931290 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.product_var_macro
+[0m16:04:03.933297 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.transf
+[0m16:04:03.935307 [info ] [Thread-1 (]: 5 of 5 START sql view model dc_dc_frontendtest_003.transf ...................... [RUN]
+[0m16:04:03.937218 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.DBT_Pr_UFA.product_var_macro, now model.DBT_Pr_UFA.transf)
+[0m16:04:03.939220 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.transf
+[0m16:04:03.948221 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.transf"
+[0m16:04:03.960217 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.transf
+[0m16:04:04.045657 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.transf"
+[0m16:04:04.054410 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:04.056412 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:04:04.057416 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:04:04.057416 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:04:04.059408 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:04:06.865440 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.808 seconds
+[0m16:04:06.866437 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:06.868436 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" as (
+    select t1.id,t1.displayname, t1.email, t1.lastorder_name, t1.defaultaddress_zip,
+       t1.defaultaddress_provincecode,round(t1.amountspent_amount) amount_spent, 
+       t2.namespace,t2.key,t2.value
+from dc_dc_frontendtest_003.shopgql_hrtg_customers t1 
+join dc_dc_frontendtest_003.shopgql_hrtg_customers_metafields t2
+on t1.id=t2.hrtg_customers_id
+  ) ;
+[0m16:04:08.113220 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.243 seconds
+[0m16:04:08.147813 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:08.148791 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf" rename to "transf__dbt_backup"
+[0m16:04:08.871991 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.722 seconds
+[0m16:04:08.881098 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:08.883112 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_tmp" rename to "transf"
+[0m16:04:09.602941 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.718 seconds
+[0m16:04:09.606919 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:04:09.608929 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:09.610926 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:04:10.160340 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.547 seconds
+[0m16:04:10.162330 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:10.163332 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:04:10.644865 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.480 seconds
+[0m16:04:10.655969 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup"
+[0m16:04:10.657979 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:10.660054 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.transf"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."transf__dbt_backup" cascade
+[0m16:04:11.149016 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.487 seconds
+[0m16:04:11.151023 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:04:11.151988 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:11.153011 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: COMMIT
+[0m16:04:11.461509 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.308 seconds
+[0m16:04:11.463612 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.transf"
+[0m16:04:11.465567 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: BEGIN
+[0m16:04:11.708251 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.241 seconds
+[0m16:04:11.711299 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: ROLLBACK
+[0m16:04:12.204486 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.transf: Close
+[0m16:04:12.206478 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a21e7791-bab9-41cc-bd7c-a03c50ac999d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD3A1DF50>]}
+[0m16:04:12.208466 [info ] [Thread-1 (]: 5 of 5 OK created sql view model dc_dc_frontendtest_003.transf ................. [[32mSUCCESS[0m in 8.27s]
+[0m16:04:12.211554 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.transf
+[0m16:04:12.217462 [debug] [MainThread]: Using redshift connection "master"
+[0m16:04:12.219557 [debug] [MainThread]: On master: BEGIN
+[0m16:04:12.221476 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:04:12.223560 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:04:12.225469 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:04:14.855531 [debug] [MainThread]: SQL status: SUCCESS in 2.634 seconds
+[0m16:04:14.857525 [debug] [MainThread]: On master: COMMIT
+[0m16:04:14.860425 [debug] [MainThread]: Using redshift connection "master"
+[0m16:04:14.861429 [debug] [MainThread]: On master: COMMIT
+[0m16:04:15.311837 [debug] [MainThread]: SQL status: SUCCESS in 0.449 seconds
+[0m16:04:15.314837 [debug] [MainThread]: On master: Close
+[0m16:04:15.317835 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:04:15.319835 [debug] [MainThread]: Connection 'list_dc_frontendtest_003' was properly closed.
+[0m16:04:15.320834 [debug] [MainThread]: Connection 'list_dc_frontendtest_003_snapshots' was properly closed.
+[0m16:04:15.321834 [debug] [MainThread]: Connection 'model.DBT_Pr_UFA.transf' was properly closed.
+[0m16:04:15.323833 [info ] [MainThread]: 
+[0m16:04:15.326835 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 56.76 seconds (56.76s).
+[0m16:04:15.330831 [debug] [MainThread]: Command end result
+[0m16:04:15.482116 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:04:15.495018 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:04:15.545112 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Employee\Documents\DBT_UFA\target\run_results.json
+[0m16:04:15.547035 [info ] [MainThread]: 
+[0m16:04:15.549080 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m16:04:15.550035 [info ] [MainThread]: 
+[0m16:04:15.551063 [error] [MainThread]: [31mFailure in model m2 (models\m2.sql)[0m
+[0m16:04:15.552139 [error] [MainThread]:   Database Error in model m2 (models\m2.sql)
+  syntax error at or near ";" in context "dc_dc_frontendtest_003.shopgql_hrtg_customers;", at line 5, column 64
+  compiled code at target\run\DBT_Pr_UFA\models\m2.sql
+[0m16:04:15.554141 [info ] [MainThread]: 
+[0m16:04:15.557036 [info ] [MainThread]:   compiled code at target\compiled\DBT_Pr_UFA\models\m2.sql
+[0m16:04:15.559035 [info ] [MainThread]: 
+[0m16:04:15.560062 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=5
+[0m16:04:15.563073 [debug] [MainThread]: Command `dbt run` failed at 16:04:15.563073 after 58.87 seconds
+[0m16:04:15.565122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BCA70F3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BCA9B8910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BCA9B8990>]}
+[0m16:04:15.566166 [debug] [MainThread]: Flushing usage events
+[0m16:04:16.794884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:15:48.589853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E9370FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E9373750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E9373210>]}
+
+
+============================== 16:15:48.597769 | 4600a39b-42f3-429d-bffe-8008d6c568eb ==============================
+[0m16:15:48.597769 [info ] [MainThread]: Running with dbt=1.10.0-b2
+[0m16:15:48.598767 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Employee\\Documents\\DBT_UFA', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\Employee\\Documents\\DBT_UFA\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --select tag:products', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:15:48.985029 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:15:48.985924 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:15:49.254170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E9B5A0D0>]}
+[0m16:15:49.303255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E6080350>]}
+[0m16:15:49.305179 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m16:15:49.665656 [debug] [MainThread]: checksum: 5a225a3ea19c91174578d2c3f7f3bd92801a2649697bdcbd194e936bd8925adb, vars: {}, profile: , target: , version: 1.10.0b2
+[0m16:15:49.995890 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m16:15:49.996889 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://models\schema.yml
+[0m16:15:49.997888 [debug] [MainThread]: Partial parsing: updated file: DBT_Pr_UFA://models\hrtg_products.sql
+[0m16:15:50.502755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246EADF1E50>]}
+[0m16:15:50.654807 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:15:50.667054 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:15:50.775375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246EAD1F910>]}
+[0m16:15:50.775375 [info ] [MainThread]: Found 5 models, 4 data tests, 1 snapshot, 2 sources, 505 macros
+[0m16:15:50.776376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246EAEA91D0>]}
+[0m16:15:50.778376 [info ] [MainThread]: 
+[0m16:15:50.779275 [info ] [MainThread]: Concurrency: 1 threads (target='redshift')
+[0m16:15:50.780286 [info ] [MainThread]: 
+[0m16:15:50.780286 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m16:15:50.782289 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003'
+[0m16:15:50.800376 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003"
+[0m16:15:50.801372 [debug] [ThreadPool]: On list_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003"} */
+
+    select distinct nspname from pg_namespace
+[0m16:15:50.801372 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:15:50.802363 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:15:50.806286 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:15:53.525970 [debug] [ThreadPool]: SQL status: SUCCESS in 2.724 seconds
+[0m16:15:53.621764 [debug] [ThreadPool]: On list_dc_frontendtest_003: Close
+[0m16:15:53.628762 [debug] [ThreadPool]: Acquiring new redshift connection 'list_dc_frontendtest_003_dc_dc_frontendtest_003'
+[0m16:15:53.634850 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:15:53.634850 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: BEGIN
+[0m16:15:53.635761 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:15:53.636775 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:15:53.636775 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:15:56.245590 [debug] [ThreadPool]: SQL status: SUCCESS in 2.610 seconds
+[0m16:15:56.246592 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_dc_dc_frontendtest_003"
+[0m16:15:56.246592 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_dc_dc_frontendtest_003"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'dc_dc_frontendtest_003'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'dc_dc_frontendtest_003'
+[0m16:15:57.670569 [debug] [ThreadPool]: SQL status: SUCCESS in 1.423 seconds
+[0m16:15:57.709556 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: ROLLBACK
+[0m16:15:58.164104 [debug] [ThreadPool]: On list_dc_frontendtest_003_dc_dc_frontendtest_003: Close
+[0m16:15:58.165110 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dc_frontendtest_003_dc_dc_frontendtest_003, now list_dc_frontendtest_003_snapshots)
+[0m16:15:58.221086 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:15:58.279874 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: BEGIN
+[0m16:15:58.342854 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:15:58.406858 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:15:58.468955 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:16:01.123479 [debug] [ThreadPool]: SQL status: SUCCESS in 2.781 seconds
+[0m16:16:01.124449 [debug] [ThreadPool]: Using redshift connection "list_dc_frontendtest_003_snapshots"
+[0m16:16:01.125380 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "list_dc_frontendtest_003_snapshots"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'snapshots'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'snapshots'
+[0m16:16:01.647191 [debug] [ThreadPool]: SQL status: SUCCESS in 0.521 seconds
+[0m16:16:01.648362 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: ROLLBACK
+[0m16:16:02.077679 [debug] [ThreadPool]: On list_dc_frontendtest_003_snapshots: Close
+[0m16:16:02.085566 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:02.086568 [debug] [MainThread]: On master: BEGIN
+[0m16:16:02.086568 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:16:02.087569 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:16:02.087569 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:16:04.694859 [debug] [MainThread]: SQL status: SUCCESS in 2.608 seconds
+[0m16:16:04.696856 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:04.698858 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m16:16:05.421103 [debug] [MainThread]: SQL status: SUCCESS in 0.721 seconds
+[0m16:16:05.430192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246EBB06510>]}
+[0m16:16:05.431100 [debug] [MainThread]: On master: ROLLBACK
+[0m16:16:05.885912 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:05.886911 [debug] [MainThread]: On master: BEGIN
+[0m16:16:06.114676 [debug] [MainThread]: SQL status: SUCCESS in 0.226 seconds
+[0m16:16:06.115679 [debug] [MainThread]: On master: COMMIT
+[0m16:16:06.115679 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:06.116674 [debug] [MainThread]: On master: COMMIT
+[0m16:16:06.571865 [debug] [MainThread]: SQL status: SUCCESS in 0.455 seconds
+[0m16:16:06.572949 [debug] [MainThread]: On master: Close
+[0m16:16:06.586080 [debug] [Thread-1 (]: Began running node model.DBT_Pr_UFA.hrtg_products
+[0m16:16:06.587183 [info ] [Thread-1 (]: 1 of 1 START sql view model dc_dc_frontendtest_003.hrtg_products ............... [RUN]
+[0m16:16:06.588172 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.DBT_Pr_UFA.hrtg_products'
+[0m16:16:06.589170 [debug] [Thread-1 (]: Began compiling node model.DBT_Pr_UFA.hrtg_products
+[0m16:16:06.593176 [debug] [Thread-1 (]: Writing injected SQL for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:06.615669 [debug] [Thread-1 (]: Began executing node model.DBT_Pr_UFA.hrtg_products
+[0m16:16:06.696666 [debug] [Thread-1 (]: Writing runtime sql for node "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:06.720666 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:06.721769 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:16:06.722669 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m16:16:06.722669 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:16:06.723667 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:16:09.268800 [debug] [Thread-1 (]: SQL status: SUCCESS in 2.546 seconds
+[0m16:16:09.270903 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:09.271908 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+
+
+  create view "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" as (
+    
+
+select t1.id, t1.title product_title, t1.producttype, t1.updatedat,
+       t2.sku, t2.title variant_title, t2.price
+from dc_dc_frontendtest_003.shopgql_hrt_products t1
+join dc_dc_frontendtest_003.shopgql_hrt_products_variants t2
+on t1.id=t2.hrt_products_id
+  ) ;
+[0m16:16:10.431651 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.158 seconds
+[0m16:16:10.456650 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:10.456650 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products" rename to "hrtg_products__dbt_backup"
+[0m16:16:11.126547 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.669 seconds
+[0m16:16:11.132544 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:11.133552 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+alter table "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_tmp" rename to "hrtg_products"
+[0m16:16:11.801297 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.667 seconds
+[0m16:16:11.816175 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:16:11.817292 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:11.818176 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:16:12.327536 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.509 seconds
+[0m16:16:12.329624 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:12.330642 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:16:12.772826 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.442 seconds
+[0m16:16:12.784920 [debug] [Thread-1 (]: Applying DROP to: "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup"
+[0m16:16:12.788844 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:12.789928 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: /* {"app": "dbt", "dbt_version": "1.10.0b2", "profile_name": "redshift", "target_name": "redshift", "node_id": "model.DBT_Pr_UFA.hrtg_products"} */
+drop view if exists "dc_frontendtest_003"."dc_dc_frontendtest_003"."hrtg_products__dbt_backup" cascade
+[0m16:16:13.243675 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.453 seconds
+[0m16:16:13.245673 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:16:13.245673 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:13.246679 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: COMMIT
+[0m16:16:13.540793 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.294 seconds
+[0m16:16:13.543812 [debug] [Thread-1 (]: Using redshift connection "model.DBT_Pr_UFA.hrtg_products"
+[0m16:16:13.544811 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: BEGIN
+[0m16:16:13.771585 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.225 seconds
+[0m16:16:13.776577 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: ROLLBACK
+[0m16:16:14.222205 [debug] [Thread-1 (]: On model.DBT_Pr_UFA.hrtg_products: Close
+[0m16:16:14.226274 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4600a39b-42f3-429d-bffe-8008d6c568eb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246EC02BE50>]}
+[0m16:16:14.228772 [info ] [Thread-1 (]: 1 of 1 OK created sql view model dc_dc_frontendtest_003.hrtg_products .......... [[32mSUCCESS[0m in 7.64s]
+[0m16:16:14.229783 [debug] [Thread-1 (]: Finished running node model.DBT_Pr_UFA.hrtg_products
+[0m16:16:14.231776 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:14.232772 [debug] [MainThread]: On master: BEGIN
+[0m16:16:14.233773 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:16:14.233773 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m16:16:14.234771 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'require'.To connect without ssl, set `sslmode` to 'disable'.
+[0m16:16:17.001247 [debug] [MainThread]: SQL status: SUCCESS in 2.768 seconds
+[0m16:16:17.002151 [debug] [MainThread]: On master: COMMIT
+[0m16:16:17.003157 [debug] [MainThread]: Using redshift connection "master"
+[0m16:16:17.003157 [debug] [MainThread]: On master: COMMIT
+[0m16:16:17.488341 [debug] [MainThread]: SQL status: SUCCESS in 0.484 seconds
+[0m16:16:17.488341 [debug] [MainThread]: On master: Close
+[0m16:16:17.490354 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:16:17.491356 [debug] [MainThread]: Connection 'list_dc_frontendtest_003' was properly closed.
+[0m16:16:17.492355 [debug] [MainThread]: Connection 'list_dc_frontendtest_003_snapshots' was properly closed.
+[0m16:16:17.493354 [debug] [MainThread]: Connection 'model.DBT_Pr_UFA.hrtg_products' was properly closed.
+[0m16:16:17.494351 [info ] [MainThread]: 
+[0m16:16:17.495352 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 26.71 seconds (26.71s).
+[0m16:16:17.497360 [debug] [MainThread]: Command end result
+[0m16:16:17.557205 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Employee\Documents\DBT_UFA\target\manifest.json
+[0m16:16:17.563295 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Employee\Documents\DBT_UFA\target\semantic_manifest.json
+[0m16:16:17.606475 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Employee\Documents\DBT_UFA\target\run_results.json
+[0m16:16:17.607435 [info ] [MainThread]: 
+[0m16:16:17.607435 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:16:17.608497 [info ] [MainThread]: 
+[0m16:16:17.609443 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m16:16:17.611526 [debug] [MainThread]: Command `dbt run` succeeded at 16:16:17.610425 after 29.15 seconds
+[0m16:16:17.611526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E936F350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E8F4C250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E2A1E810>]}
+[0m16:16:17.612426 [debug] [MainThread]: Flushing usage events
+[0m16:16:18.608915 [debug] [MainThread]: An error was encountered while trying to flush usage events

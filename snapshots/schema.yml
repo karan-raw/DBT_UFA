@@ -3,3 +3,4 @@ sources:
     schema: dc_dc_frontendtest_003
     tables:
       - name: shopgql_hrt_products
+      - name: shopgql_hrt_products_variants

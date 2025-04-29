@@ -1,3 +1,5 @@
+{{ config(tags=["products", "products_var"]) }}
+
 select t1.id, t1.title product_title, t1.producttype, t1.updatedat,
        t2.sku, t2.title variant_title, t2.price
 from dc_dc_frontendtest_003.shopgql_hrt_products t1

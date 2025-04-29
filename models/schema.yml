@@ -12,3 +12,4 @@ models:
         tests:
           - not_null
           - unique
+        tags: ["products", "products_var"]
