@@ -10,3 +10,6 @@ snapshots:
   DBT_Pr_UFA:            # your dbt project name
     +target_schema: snapshots
     +path: snapshots
+
+vars:
+  start_date: '2024-01-01'
